@@ -11,6 +11,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     ProjectsComponent,
     ContactComponent,
     FooterComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +34,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
       {path:'education', component: EducationComponent},
       {path:'projects', component: ProjectsComponent},
       {path:'contact', component: ContactComponent},
+      {path:'login', component: LoginComponent},
       {path:'**', component: PageNotFoundComponent}
     ])
   ],

@@ -128,15 +128,21 @@ h2 {
     padding: 10% 10%;
 }
 
+#login {
+    background-color: rgb(0, 0, 0, 0.1);
+    display: table;
+    height: 110%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    padding: 10% 10%;
+}
+
 #experience .row p {
     text-align: center;
 }
 
 #education .row p {
-    text-align: center;
-}
-
-#skills .row p {
     text-align: center;
 }
 
